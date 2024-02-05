@@ -1,7 +1,9 @@
-name: wro-dc-survey
-channels:
-  - defaults
-  - conda-forge
-dependencies:
-  - python=3.8
-prefix: /opt/anaconda3/envs/wro-dc-survey
+# Python version 3.8.18
+
+git-filter-repo==2.38.0
+numpy==1.24.4
+pandas==2.0.3
+python-dateutil==2.8.2
+pytz==2024.1
+six==1.16.0
+tzdata==2023.4
